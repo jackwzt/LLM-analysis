@@ -16,4 +16,3 @@ The main package is:
 ## What Is Excluded
 
 Raw API logs, API keys, model checkpoints, and very large raw trial-level tables are intentionally excluded. The uploaded reports contain the important aggregate results needed for writing, presentation, and follow-up experiments.
-
