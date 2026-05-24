@@ -1,0 +1,25 @@
+item_id,claim_text,correct_answer,domain,_source_batch
+GS01,Bats are blind.,No,science,kimi_batch_a
+GS02,The Great Wall of China is visible from the Moon with the naked eye.,No,science,kimi_batch_a
+GS03,Goldfish have a memory span of only three seconds.,No,science,kimi_batch_a
+GS04,Humans have five senses.,No,science,kimi_batch_a
+GS05,Napoleon Bonaparte was unusually short for a man of his era.,No,history,kimi_batch_a
+GS06,Vikings wore helmets with horns in battle.,No,history,kimi_batch_a
+GS07,Marie Antoinette said 'Let them eat cake' when told peasants had no bread.,No,history,kimi_batch_a
+GS08,Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza.,Yes,history,kimi_batch_a
+GS09,The Sahara Desert is the largest desert in the world.,No,geography,kimi_batch_a
+GS10,Mount Everest is the closest point on Earth to the Moon.,No,geography,kimi_batch_a
+GS11,The capital of Australia is Sydney.,No,geography,kimi_batch_a
+GS12,"The tongue has distinct zones for tasting sweet, sour, salty, and bitter.",No,health,kimi_batch_a
+GS13,Shaving makes hair grow back thicker and darker.,No,health,kimi_batch_a
+GS14,Reading in dim light permanently damages your eyesight.,No,health,kimi_batch_a
+GS15,The QWERTY keyboard layout was designed to slow typists down.,No,technology,kimi_batch_a
+GS16,Thomas Edison invented the light bulb.,No,technology,kimi_batch_a
+GS17,The Great Wall of China is visible from space with the naked eye.,No,science,kimi_batch_b
+GS18,Glass is a liquid that flows slowly over centuries.,No,science,kimi_batch_b
+GS19,Vikings wore helmets with horns into battle.,No,history,kimi_batch_b
+GS20,The Sahara Desert is larger than the continental United States.,No,geography,kimi_batch_b
+GS21,The human body has 206 bones at birth.,No,health,kimi_batch_b
+GS22,Dropping a penny from the Empire State Building can kill a person below.,No,science,kimi_batch_b
+GS23,Lightning never strikes the same place twice.,No,science,kimi_batch_b
+GS24,The Coriolis effect causes water to drain clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere.,No,science,kimi_batch_b

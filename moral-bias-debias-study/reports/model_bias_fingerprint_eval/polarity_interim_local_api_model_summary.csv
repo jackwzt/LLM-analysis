@@ -1,0 +1,6 @@
+model_id,provider_family,method_condition,task_families,polarity_gap_abs,polarity_gap_signed,accuracy_mean
+qwen3_4b_base,qwen,standard,"factual,moral",0.3333333333333333,-0.3333333333333333,0.8333333333333333
+qwen3_32b_local,qwen,standard,"factual,moral",0.08333333333333333,0.08333333333333333,0.9583333333333333
+deepseek_v4flash,deepseek,standard,"factual,moral",0.0,0.0,1.0
+gemma4_e4b_base,gemma,standard,"factual,moral",0.0,0.0,1.0
+deepseek_v4pro,deepseek,standard,"factual,moral",0.0,0.0,1.0

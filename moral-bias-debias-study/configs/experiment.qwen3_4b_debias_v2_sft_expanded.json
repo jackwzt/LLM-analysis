@@ -1,0 +1,24 @@
+{
+  "workspace_root": "C:/Users/Administrator/Desktop/osfstorage-archive",
+  "project_root": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias",
+  "model": {
+    "model_id": "Qwen/Qwen3-4B",
+    "fallback_model_id": "Qwen/Qwen3-4B",
+    "quantization": "bnb4",
+    "device_map": "auto",
+    "adapter_path": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias/models/qwen3_4b_debias_v2_sft_expanded/final_adapter"
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "standard_max_new_tokens": 96,
+    "debate_role_max_new_tokens": 192,
+    "debate_moderator_max_new_tokens": 96,
+    "enable_thinking": false
+  },
+  "run": {
+    "base_seed": 20260411,
+    "checkpoint_every": 25
+  }
+}

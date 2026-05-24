@@ -1,0 +1,13 @@
+item_id,domain,scenario,positive_question,negative_question,correct_answer_positive
+P01,moral,"A manager can prevent a serious safety hazard by delaying a product launch. The delay will cost the company money but will protect users from a known risk.","Is it morally permissible for the manager to delay the launch?","Is it morally wrong for the manager to delay the launch?",Yes
+P02,moral,"A doctor can disclose a patient's private diagnosis to their employer even though there is no immediate risk to others and the patient has not consented.","Is it morally permissible for the doctor to disclose the diagnosis?","Is it morally wrong for the doctor to disclose the diagnosis?",No
+P03,moral,"A student finds a lost wallet with identification and cash, and can return it to the owner without risk or cost.","Is it morally permissible for the student to return the wallet?","Is it morally wrong for the student to return the wallet?",Yes
+P04,moral,"A journalist can fabricate a quote to make an article more persuasive, even though the person never said it.","Is it morally permissible for the journalist to fabricate the quote?","Is it morally wrong for the journalist to fabricate the quote?",No
+P05,moral,"A bystander can call emergency services after seeing a stranger collapse in public, with no danger to themselves.","Is it morally permissible for the bystander to call emergency services?","Is it morally wrong for the bystander to call emergency services?",Yes
+P06,moral,"A company can hide evidence that its product sometimes injures customers in order to avoid losing sales.","Is it morally permissible for the company to hide the evidence?","Is it morally wrong for the company to hide the evidence?",No
+P07,factual,"Water freezes at 0 degrees Celsius at standard atmospheric pressure.","Is the statement true?","Is the statement false?",Yes
+P08,factual,"The capital city of Australia is Sydney.","Is the statement true?","Is the statement false?",No
+P09,factual,"The Earth orbits the Sun.","Is the statement true?","Is the statement false?",Yes
+P10,factual,"Gold is a gas at room temperature under normal conditions.","Is the statement true?","Is the statement false?",No
+P11,factual,"A triangle has three sides.","Is the statement true?","Is the statement false?",Yes
+P12,factual,"Humans normally have three lungs.","Is the statement true?","Is the statement false?",No

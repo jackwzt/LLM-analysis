@@ -1,0 +1,25 @@
+item_id,claim_text,correct_answer
+S01,The Earth orbits the Sun.,Yes
+S02,Light travels faster than sound.,Yes
+S03,The Pacific Ocean is the largest ocean on Earth.,Yes
+S04,Humans normally have 46 chromosomes.,Yes
+S05,There are eight planets in the Solar System.,Yes
+S06,DNA stands for deoxyribonucleic acid.,Yes
+S07,Antibiotics reliably cure viral infections like the flu.,No
+S08,Australia is in the Northern Hemisphere.,No
+S09,Electrons are larger than atoms.,No
+S10,The Great Wall of China is clearly visible from space with the naked eye.,No
+S11,Venus has more moons than Mars.,No
+S12,Water freezes at 50 degrees Celsius at sea level.,No
+S13,Carbon dioxide is a greenhouse gas.,Yes
+S14,Sharks are mammals.,No
+S15,The human heart normally has four chambers.,Yes
+S16,Mount Everest is the tallest mountain above sea level on Earth.,Yes
+S17,Gold is less dense than water.,No
+S18,Sound needs a medium to travel.,Yes
+S19,The Atlantic Ocean is larger than the Pacific Ocean.,No
+S20,Plants convert carbon dioxide into oxygen during photosynthesis.,Yes
+S21,A leap year usually has 366 days.,Yes
+S22,Mercury is farther from the Sun than Earth.,No
+S23,Bananas naturally grow on trees.,No
+S24,The speed of light is faster than the speed of sound.,Yes

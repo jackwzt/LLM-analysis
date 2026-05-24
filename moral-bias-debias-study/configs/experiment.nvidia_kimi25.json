@@ -1,0 +1,45 @@
+{
+  "workspace_root": "C:/Users/Administrator/Desktop/osfstorage-archive",
+  "project_root": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias",
+  "model": {
+    "model_id": "Qwen/Qwen3-32B-AWQ",
+    "fallback_model_id": "Qwen/Qwen3-32B",
+    "quantization": "awq",
+    "device_map": "auto"
+  },
+  "gemma": {
+    "model_id": "google/gemma-4-31B-it",
+    "quantization": "bnb4",
+    "device_map": "auto",
+    "enable_thinking": false
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "standard_max_new_tokens": 64,
+    "debate_role_max_new_tokens": 384,
+    "debate_moderator_max_new_tokens": 192,
+    "enable_thinking": false
+  },
+  "api": {
+    "deepseek": {
+      "base_url": "https://api.deepseek.com",
+      "model_id": "deepseek-chat",
+      "max_retries": 3,
+      "timeout_seconds": 180
+    },
+    "openai_compatible": {
+      "max_retries": 6,
+      "timeout_seconds": 240,
+      "retry_base_delay_seconds": 2,
+      "retry_max_delay_seconds": 60,
+      "min_request_interval_seconds": 2.2,
+      "extra_body": {}
+    }
+  },
+  "run": {
+    "base_seed": 20260411,
+    "checkpoint_every": 1
+  }
+}

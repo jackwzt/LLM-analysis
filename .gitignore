@@ -1,0 +1,30 @@
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local run artifacts that may contain raw model outputs or credentials.
+logs/
+results/
+*.log
+*.tmp
+
+# Large raw trial exports are intentionally not versioned here.
+raw_trials.csv
+pilot_trials_combined.csv
+combined_model_trials.csv
+model_bias_long.csv
+polarity_interim_local_api_trials_enriched.csv
+
+# Local model and adapter artifacts.
+models/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+
+# Secrets / local environment.
+.env
+*.key

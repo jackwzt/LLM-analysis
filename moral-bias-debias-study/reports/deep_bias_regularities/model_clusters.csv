@@ -1,0 +1,14 @@
+model_id,provider_family,model_line,variant_type,deployment,training_state,cluster_k3,pca1,pca2,feature_coverage
+aliyun_qwen36,qwen,qwen3.6,flash_api,api,api_aligned,1,-0.5375864597981731,0.08177934235829756,0.6666666666666666
+gemini25_flash,gemini,gemini-2.5,flash_api,api,api_aligned,1,-0.36875006038994307,-0.04770700430354396,0.6666666666666666
+gemma4_31b_api,gemma,gemma-4,large_api,api,api_aligned,1,-2.009085829285191,0.11230721865390629,0.5555555555555556
+gemma4_e4b_sft,gemma,gemma-4,e4b_local_sft,local,sft_debiased,1,-2.1334808332934534,0.03853870199157718,0.6666666666666666
+qwen3_32b_local,qwen,qwen3,32b_local,local,base_or_instruct,1,-2.1330968993050794,-0.2581467843146112,0.6666666666666666
+qwen3_4b_expanded_sft,qwen,qwen3,4b_local_sft,local,sft_debiased,1,-2.566181285027494,0.31766005410215264,0.6666666666666666
+qwen3_4b_expanded_sft_dpo,qwen,qwen3,4b_local_sft_dpo,local,sft_dpo_debiased,1,-2.1944481047075755,1.2456868111718105,0.6666666666666666
+zhipu_glm51,glm,glm-5.1,chat_api,api,api_aligned,1,-0.037531063381768065,-0.09302801920560774,0.5555555555555556
+deepseek_v4flash,deepseek,deepseek-v4,flash_api,api,api_aligned,2,2.1501441761466253,-0.36237146537904463,0.8888888888888888
+deepseek_v4pro,deepseek,deepseek-v4,pro_api,api,api_aligned,2,4.268816301512634,3.0026088491651186,1.0
+gemma4_e4b_base,gemma,gemma-4,e4b_local,local,base_or_instruct,2,1.2249355949345047,0.7178379711923031,0.7777777777777778
+qwen3_4b_base,qwen,qwen3,4b_local,local,base_or_instruct,2,3.6567780925859616,-2.135436358155068,0.7777777777777778
+deepseek_chat,deepseek,deepseek-chat,chat_api,api,api_aligned,3,0.679486370008953,-2.6197293172772875,0.8888888888888888

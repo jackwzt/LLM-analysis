@@ -1,0 +1,37 @@
+{
+  "workspace_root": "C:/Users/Administrator/Desktop/osfstorage-archive",
+  "project_root": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias",
+  "model": {
+    "model_id": "Qwen/Qwen3-4B",
+    "fallback_model_id": "Qwen/Qwen3-4B",
+    "quantization": "bnb4",
+    "device_map": "auto"
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "standard_max_new_tokens": 96,
+    "debate_role_max_new_tokens": 192,
+    "debate_moderator_max_new_tokens": 96,
+    "enable_thinking": false
+  },
+  "api": {
+    "openai_compatible": {
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "model_id": "qwen3.5-122b-a10b",
+      "max_retries": 6,
+      "timeout_seconds": 180,
+      "retry_base_delay_seconds": 2,
+      "retry_max_delay_seconds": 60,
+      "min_request_interval_seconds": 1.5,
+      "extra_body": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "run": {
+    "base_seed": 20260411,
+    "checkpoint_every": 25
+  }
+}

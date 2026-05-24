@@ -1,0 +1,15 @@
+model_id,provider_family,model_line,variant_type,deployment,openness,size_class,training_state,reasoning_or_speed_profile,cost_tier,notes
+aliyun_qwen36,qwen,qwen3.6,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,Aliyun Qwen3.6 API run
+deepseek_chat,deepseek,deepseek-chat,chat_api,api,closed_or_hosted,large_unknown,api_aligned,general_commercial,low,Earlier DeepSeek chat API run
+deepseek_v4flash,deepseek,deepseek-v4,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,DeepSeek V4 Flash API
+deepseek_v4pro,deepseek,deepseek-v4,pro_api,api,closed_or_hosted,large_unknown,api_aligned,pro_commercial,medium,DeepSeek V4 Pro API
+gemini25_flash,gemini,gemini-2.5,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,Google Gemini 2.5 Flash API
+gemma4_31b_api,gemma,gemma-4,large_api,api,closed_or_hosted,31b,api_aligned,general_commercial,medium,Google Gemma 4 31B API run
+gemma4_e4b_base,gemma,gemma-4,e4b_local,local,open_weights,4b,base_or_instruct,local_small,local,Local Gemma 4 E4B baseline
+gemma4_e4b_sft,gemma,gemma-4,e4b_local_sft,local,open_weights,4b,sft_debiased,local_small,local,Local Gemma 4 E4B SFT adapter
+qwen3_32b_local,qwen,qwen3,32b_local,local,open_weights,32b,base_or_instruct,local_large,local,Local Qwen3 32B run
+qwen3_4b_base,qwen,qwen3,4b_local,local,open_weights,4b,base_or_instruct,local_small,local,Local Qwen3 4B baseline
+qwen3_4b_expanded_sft,qwen,qwen3,4b_local_sft,local,open_weights,4b,sft_debiased,local_small,local,Qwen3 4B expanded SFT adapter
+qwen3_4b_expanded_sft_dpo,qwen,qwen3,4b_local_sft_dpo,local,open_weights,4b,sft_dpo_debiased,local_small,local,Qwen3 4B expanded SFT plus DPO adapter
+qwen3_4b_structured_cr_sft,qwen,qwen3,4b_local_structured_cr_sft,local,open_weights,4b,sft_structured_cr,local_small,local,Qwen3 4B structured critique-revise SFT adapter
+zhipu_glm51,glm,glm-5.1,chat_api,api,closed_or_hosted,large_unknown,api_aligned,general_commercial,low,Zhipu GLM-5.1 API run

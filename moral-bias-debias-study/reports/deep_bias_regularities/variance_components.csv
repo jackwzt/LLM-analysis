@@ -1,0 +1,7 @@
+method,component,variance,share,n_rows,n_models,n_items
+crossed_mean_variance_proxy,model_global_response_bias,0.007825776188408438,0.046193916399472165,587,14,50
+crossed_mean_variance_proxy,stimulus_item_effect,0.0416369394284406,0.2457741255028706,587,14,50
+crossed_mean_variance_proxy,bias_type_fixed_effect,0.0027879579793407836,0.016456731539763268,587,14,50
+crossed_mean_variance_proxy,method_fixed_effect,0.00603762098376812,0.03563881105991671,587,14,50
+crossed_mean_variance_proxy,model_specific_item_fingerprint,0.0529685495138641,0.31266224450284996,587,14,50
+crossed_mean_variance_proxy,residual_noise,0.05815455893018867,0.34327417099512725,587,14,50

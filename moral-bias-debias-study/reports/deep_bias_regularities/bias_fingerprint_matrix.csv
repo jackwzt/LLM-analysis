@@ -1,0 +1,19 @@
+model_id,yes_no_gap,omission_gap,moral_bias_mean,exp2_moral_bias,exp3_moral_bias,sycophancy_wrong_belief,structured_cr_wrong_belief,polarity_gap_abs,critique_revise_reduction,debate_reduction,provider_family,model_line,variant_type,deployment,openness,size_class,training_state,reasoning_or_speed_profile,cost_tier,notes,feature_coverage
+aliyun_qwen36,0.35565476190476186,0.4107142857142857,0.38318452380952384,0.2380952380952381,0.5282738095238095,,,,,0.18452380952380953,qwen,qwen3.6,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,Aliyun Qwen3.6 API run,0.6
+deepseek_chat,0.6279761904761905,0.5982142857142857,0.6130952380952381,0.4761904761904762,0.75,0.125,,,0.33333333333333337,0.28943452380952384,deepseek,deepseek-chat,chat_api,api,closed_or_hosted,large_unknown,api_aligned,general_commercial,low,Earlier DeepSeek chat API run,0.8
+deepseek_v4flash,0.7589285714285714,0.6711309523809523,0.7150297619047619,0.6666666666666666,0.7633928571428572,,,0.0,0.4062499999999999,0.3010010822510822,deepseek,deepseek-v4,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,DeepSeek V4 Flash API,0.8
+deepseek_v4pro,0.7797619047619048,0.78125,0.7805059523809523,0.7127976190476191,0.8482142857142857,0.3020833333333333,,0.0,0.5342261904761906,0.6101190476190477,deepseek,deepseek-v4,pro_api,api,closed_or_hosted,large_unknown,api_aligned,pro_commercial,medium,DeepSeek V4 Pro API,0.9
+gemini25_flash,0.4300595238095238,0.36904761904761907,0.3995535714285714,0.119047619047619,0.6800595238095238,,,,,0.1935200216450216,gemini,gemini-2.5,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,Google Gemini 2.5 Flash API,0.6
+gemma4_31b_api,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1666666666666666,,,,,,0.0535714285714285,gemma,gemma-4,large_api,api,closed_or_hosted,31b,api_aligned,general_commercial,medium,Google Gemma 4 31B API run,0.5
+gemma4_e4b_base,0.5813492063492064,0.560515873015873,0.5709325396825397,1.0,0.2857142857142857,0.25,,0.0,,,gemma,gemma-4,e4b_local,local,open_weights,4b,base_or_instruct,local_small,local,Local Gemma 4 E4B baseline,0.7
+gemma4_e4b_sft,0.26190476190476186,0.23859126984126977,0.2502480158730158,0.0535714285714285,0.2232142857142856,0.1458333333333333,,,,,gemma,gemma-4,e4b_local_sft,local,open_weights,4b,sft_debiased,local_small,local,Local Gemma 4 E4B SFT adapter,0.6
+pilot_api_sycophancy_24x4,,,,,,0.03125,,,,,,,,,,,,,,,0.1
+pilot_deepseek_joint_top3,,,,,,0.140625,,,,,,,,,,,,,,,0.1
+qwen3_32b_local,0.3601190476190476,0.0267857142857142,0.1934523809523809,0.1934523809523809,,,,0.0833333333333333,,-0.0818452380952381,qwen,qwen3,32b_local,local,open_weights,32b,base_or_instruct,local_large,local,Local Qwen3 32B run,0.6
+qwen3_4b_base,0.7777777777777778,0.8333333333333334,0.8055555555555555,1.0,1.0,0.25,,0.3333333333333333,,,qwen,qwen3,4b_local,local,open_weights,4b,base_or_instruct,local_small,local,Local Qwen3 4B baseline,0.7
+qwen3_4b_expanded_sft,0.17013888888888892,0.20089285714285712,0.18551587301587302,0.0,0.1607142857142857,0.15625,,,,,qwen,qwen3,4b_local_sft,local,open_weights,4b,sft_debiased,local_small,local,Qwen3 4B expanded SFT adapter,0.6
+qwen3_4b_expanded_sft_dpo,0.0,0.26785714285714285,0.1339285714285714,0.0,0.2678571428571428,0.25,,,,,qwen,qwen3,4b_local_sft_dpo,local,open_weights,4b,sft_dpo_debiased,local_small,local,Qwen3 4B expanded SFT plus DPO adapter,0.6
+qwen3_4b_structured_cr_sft,,,,,,,0.0625,,,,qwen,qwen3,4b_local_structured_cr_sft,local,open_weights,4b,sft_structured_cr,local_small,local,Qwen3 4B structured critique-revise SFT adapter,0.1
+smoke_api_sycophancy_methods,,,,,,0.0,,,,,,,,,,,,,,,0.1
+smoke_nvidia_kimi25_std_cr,,,,,,0.0,,,,,,,,,,,,,,,0.1
+zhipu_glm51,0.3630952380952381,0.5,0.431547619047619,0.0833333333333333,0.7797619047619048,,,,,,glm,glm-5.1,chat_api,api,closed_or_hosted,large_unknown,api_aligned,general_commercial,low,Zhipu GLM-5.1 API run,0.5

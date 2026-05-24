@@ -1,0 +1,3 @@
+model_id,provider_family,method_condition,task_families,polarity_gap_abs,polarity_gap_signed,accuracy_mean,provider_family_meta,model_line,variant_type,deployment,openness,size_class,training_state,reasoning_or_speed_profile,cost_tier,notes
+deepseek_v4flash,deepseek,standard,"factual,moral",0.0,0.0,1.0,deepseek,deepseek-v4,flash_api,api,closed_or_hosted,large_unknown,api_aligned,fast_commercial,low,DeepSeek V4 Flash API
+deepseek_v4pro,deepseek,standard,"factual,moral",0.0,0.0,1.0,deepseek,deepseek-v4,pro_api,api,closed_or_hosted,large_unknown,api_aligned,pro_commercial,medium,DeepSeek V4 Pro API

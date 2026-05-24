@@ -1,0 +1,11 @@
+model_id,provider_family,method_condition,task_family,items,polarity_gap_abs,polarity_gap_signed,accuracy_mean,endorse_positive_rate,endorse_negative_rate
+qwen3_4b_base,qwen,standard,factual,6,0.5,-0.5,0.75,0.5,1.0
+qwen3_32b_local,qwen,standard,moral,6,0.16666666666666666,0.16666666666666666,0.9166666666666666,0.5,0.3333333333333333
+qwen3_4b_base,qwen,standard,moral,6,0.16666666666666666,-0.16666666666666666,0.9166666666666666,0.5,0.6666666666666666
+deepseek_v4flash,deepseek,standard,factual,6,0.0,0.0,1.0,0.5,0.5
+deepseek_v4flash,deepseek,standard,moral,6,0.0,0.0,1.0,0.5,0.5
+deepseek_v4pro,deepseek,standard,factual,6,0.0,0.0,1.0,0.5,0.5
+deepseek_v4pro,deepseek,standard,moral,6,0.0,0.0,1.0,0.5,0.5
+gemma4_e4b_base,gemma,standard,factual,6,0.0,0.0,1.0,0.5,0.5
+gemma4_e4b_base,gemma,standard,moral,6,0.0,0.0,1.0,0.5,0.5
+qwen3_32b_local,qwen,standard,factual,6,0.0,0.0,1.0,0.5,0.5
