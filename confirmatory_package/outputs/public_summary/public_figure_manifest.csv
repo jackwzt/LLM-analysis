@@ -1,0 +1,17 @@
+file_path,figure_type,format,safe_to_upload,notes
+confirmatory_package/outputs/figures/baseline_model_bias.pdf,baseline_bias,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/baseline_model_bias.png,baseline_bias,png,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/cost_effectiveness_scatter.pdf,cost_effectiveness,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/cost_effectiveness_scatter.png,cost_effectiveness,png,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/method_moral_bias_reduction.pdf,method_reduction,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/method_moral_bias_reduction.png,method_reduction,png,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/method_value_score_ranking.pdf,value_score_ranking,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/method_value_score_ranking.png,value_score_ranking,png,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/model_method_heatmap.pdf,model_method_heatmap,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+confirmatory_package/outputs/figures/model_method_heatmap.png,model_method_heatmap,png,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_feature_heatmap.pdf,fingerprint_heatmap,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_feature_heatmap.png,fingerprint_heatmap,png,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_fingerprint_dendrogram.pdf,fingerprint_dendrogram,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_fingerprint_dendrogram.png,fingerprint_dendrogram,png,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_fingerprint_pca.pdf,fingerprint_pca,pdf,True,Derived aggregate figure; no raw prompts or model outputs.
+fingerprint_package/outputs/figures/model_fingerprint_pca.png,fingerprint_pca,png,True,Derived aggregate figure; no raw prompts or model outputs.

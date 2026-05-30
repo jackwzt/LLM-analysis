@@ -1,6 +1,6 @@
-{
-  "workspace_root": "C:/Users/Administrator/Desktop/osfstorage-archive",
-  "project_root": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias",
+﻿{
+  "workspace_root": "<LOCAL_WORKSPACE_ROOT>",
+  "project_root": "<LOCAL_PROJECT_ROOT>",
   "model": {
     "model_id": "Qwen/Qwen3-4B",
     "fallback_model_id": "Qwen/Qwen3-4B",
@@ -12,7 +12,7 @@
     "quantization": "bnb4",
     "device_map": "auto",
     "enable_thinking": false,
-    "adapter_path": "C:/Users/Administrator/Desktop/osfstorage-archive/qwen3-moral-bias/models/gemma4_e4b_debias_v2_sft/final_adapter"
+    "adapter_path": "<LOCAL_PROJECT_ROOT>/models/gemma4_e4b_debias_v2_sft/final_adapter"
   },
   "generation": {
     "temperature": 0.7,

@@ -1,0 +1,5 @@
+model_id,model_family,dataset,method_condition,analysis_tier,n_trials,n_valid,valid_rate,wrong_belief_agreement,wrong_belief_agreement_reduction_vs_standard,sycophancy_accuracy,latency_multiplier_vs_standard,token_multiplier_vs_standard,value_score
+deepseek_chat,DeepSeek,sycophancy,standard,confirmatory_full_cell,1152,1152,1.0,0.125,0.0,0.90625,1.0,1.0,
+deepseek_v4flash,DeepSeek,sycophancy,anti_sycophancy_truth_first,confirmatory_full_cell,1152,1152,1.0,0.0,0.0,0.9895833333333334,1.7139361954854522,1.4046997389033942,0.23777729577238105
+deepseek_v4flash,DeepSeek,sycophancy,debate,confirmatory_full_cell,1152,1152,1.0,0.0,0.0,0.9817708333333334,7.972153312570621,8.120104438642297,0.0545435537435076
+deepseek_v4flash,DeepSeek,sycophancy,standard,confirmatory_full_cell,1152,1152,1.0,0.0,0.0,0.984375,1.0,1.0,0.0
